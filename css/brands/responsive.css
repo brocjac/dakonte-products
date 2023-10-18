@@ -1,0 +1,33 @@
+/*tablet - small screens*/
+@media screen and (max-width: 1160px) {
+    main {
+        max-width: 100%;
+    }
+}
+@media screen and (max-width: 980px) {
+    main {
+        display: block;
+    }
+    .brands {
+        width: 100%;
+        justify-content: center;
+    }
+    .brands-intro {
+        width: 100%;
+        height: 160px;
+    }
+    .brands-intro img {
+        height: 160px;
+    }
+}
+
+/*smart phone*/
+@media screen and (max-width: 560px) {
+    main {
+        height: 100%;
+        margin-bottom: 55px;
+    }
+    .brands {
+        height: 100%;
+    }
+}

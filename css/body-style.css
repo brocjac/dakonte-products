@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Lato, arial, sans-serif;
+}
+body {
+    position: relative;
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 20px;
+    overflow-x: hidden;
+}
+h1 {
+    font-size: 42px;
+}
+h2 {
+    font-size: 32px;
+}
+/*-----------------affects and redundant styles----------------------*/
+.hover-affect-1 {
+    border: solid 1px #E9E9E9;
+    margin: 10px;
+    position: relative;
+    bottom: 0;
+    transition-duration: .3s;
+}
+.hover-affect-1:hover {
+    bottom: 10px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.4);
+    text-decoration: none;
+}
