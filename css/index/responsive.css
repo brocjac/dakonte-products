@@ -47,6 +47,10 @@
     .intro-text h1, .intro-text h3 {
         text-align: center;
     }
+    .product span {
+        text-align: center;
+        padding-left: 0;
+    }
     @media screen and (max-width: 420px) {
         .banner-container {
             padding: 25px;
@@ -57,6 +61,12 @@
         }
         .banner-container p {
             text-align: center;
+        }
+        .learn-options-container {
+            flex-direction: column;
+        }
+        .learn-options {
+            width: 100%;
         }
     }
     @media screen and (max-width: 435px) {
