@@ -3,7 +3,7 @@ class Header extends HTMLElement {
     connectedCallback() {
         this.innerHTML = `
         <header>
-            <a href="index.html"><img class="logo-img-text" src="images/images/DPG%20Corp%20Family%20Logo%20TIE%20GMC%20EP%20transparent.jpg" alt="Dakonte Product Group, TIE office mates, Great Menu Covers, and Easy Partition Logo. "></a>
+            <a href="index.html"><img class="logo-img-text" src="images/images/DPG%20Corp%20Family%20Logo%20TIE%20GMC%20EP%20transparent.jpg" alt="Dakonte Product Group, TIE office mates, Great Menu Covers, and Easy Partition Logo. " loading="lazy"></a>
             <div class="nav">
                 <ul>
                     <li>
@@ -54,7 +54,7 @@ class Footer extends HTMLElement {
     connectedCallback () {
         this.innerHTML = `
             <footer>
-                <img class="logo-img-footer" src="../images/icons/about-dgp.png" alt="Dakonte Product Group logo. ">
+                <img class="logo-img-footer" src="../images/icons/about-dgp.png" alt="Dakonte Product Group logo. " loading="lazy">
                 <div>
                     <p><a href="about-dpg.html">About DGP</a> | <a href="privacy.html">Privacy</a></p>
                     <p class="copywrite">© Dakonte Product Group, Inc 2023. All Rights Reserved.</p>
