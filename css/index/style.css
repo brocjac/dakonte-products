@@ -80,33 +80,14 @@
 }
 
 /* products */
-.products-container {
-    padding: 80px 50px 50px 50px;
-}
-.product-exp {
-    display: inline-block;
-    vertical-align: top;
-    width: 30%;
-    margin-top: 60px;
-}
-.product-exp hr {
-    width: 55px;
-    height: 2px;
-    border: none;
-    background-color: black;
-    margin-bottom: 30px;
-}
-.product-exp p {
-    padding: 20px 0 20px 0;
-}
 .products-content {
-    display: inline-block;
+}
+.products {
+    padding: 80px 50px 50px 50px;
     width: 60%;
     position: relative;
     left: 50%;
     transform: translate(-50%);
-}
-.products {
     display: flex;
     flex-flow: wrap;
 }
