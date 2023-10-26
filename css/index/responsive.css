@@ -38,7 +38,7 @@
         height: 710px;
     }
     .main-img {
-        height: 710px;
+        height: 750px;
     }
     .intro-text {
         bottom: 55px;
@@ -71,10 +71,10 @@
     }
     @media screen and (max-width: 435px) {
         .introduction-container {
-            height: 745px;
+            height: 765px;
         }
         .main-img {
-            height: 745px;
+            height: 765px;
         }
         .intro-text {
             bottom: 30px;

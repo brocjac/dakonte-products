@@ -29,6 +29,9 @@
     right: 50px;
     width: 40%;
 }
+.intro-text h2 {
+    font-size: 1.4em;
+}
 .intro-text div {
     padding: 20px 0 20px 0;
 }
@@ -131,9 +134,10 @@
 .learn-container {
     padding-bottom: 50px;
 }
-.learn-container h2{
+.learn-container h3{
     text-align: center;
     padding-bottom: 20px;
+    font-size: 32px;
 }
 .learn-options-container {
     display: flex;
