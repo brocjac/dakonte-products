@@ -10,15 +10,17 @@ class Header extends HTMLElement {
                         <div class="hover">
                             <a onclick="show_hide_1()" href="#" class="menuItem hover-menu list-link-1">Products</a>
                             <div class="list list-1" style="display: none;">
-                                <a class="hover-menu" href="https://tieofficemates.com/shop-ticket-holders/heavy-duty-stitched-job-ticket-holders/">Job Ticket Holders</a>
-                                <a class="hover-menu" href="https://tieofficemates.com/vinyl-document-sleeves/waterproof-press-lock-seal/">Waterproof Holders</a>
-                                <a class="hover-menu" href="https://tieofficemates.com/color-coding-options/">Color Coded Products</a>
-                                <a class="hover-menu" href="https://greatmenucovers.com/cafe-menu-covers-vinyl-trim">Café Menu Covers</a>
-                                <a class="hover-menu" href="https://greatmenucovers.com/clear-plastic-menu-sleeve-pockets/">Clear Menu Covers</a>
-                                <a class="hover-menu" href="https://greatmenucovers.com/add-a-menu-page-inserts/">Add-A-Page</a>
-                                <a class="hover-menu" href="https://tieofficemates.com/auto-repair-order-holders/">Service Order Holders</a>
-                                <a class="hover-menu" href="https://tieofficemates.com/easy-sign-holders/">Sign Holders</a>
-                                <a class="hover-menu" href="https://tieofficemates.com/vinyl-tag-holders/">Tag Holders</a>
+                                <ul>
+                                    <li><a class="list-links" href="https://tieofficemates.com/shop-ticket-holders/heavy-duty-stitched-job-ticket-holders/">Job Ticket Holders</a></li>
+                                    <li><a class="list-links" href="https://tieofficemates.com/vinyl-document-sleeves/waterproof-press-lock-seal/">Waterproof Holders</a></li>
+                                    <li><a class="list-links" href="https://tieofficemates.com/color-coding-options/">Color Coded Products</a></li>
+                                    <li><a class="list-links" href="https://greatmenucovers.com/cafe-menu-covers-vinyl-trim">Café Menu Covers</a></li>
+                                    <li><a class="list-links" href="https://greatmenucovers.com/clear-plastic-menu-sleeve-pockets/">Clear Menu Covers</a></li>
+                                    <li><a class="list-links" href="https://greatmenucovers.com/add-a-menu-page-inserts/">Add-A-Page</a></li>
+                                    <li><a class="list-links" href="https://tieofficemates.com/auto-repair-order-holders/">Service Order Holders</a></li>
+                                    <li><a class="list-links" href="https://tieofficemates.com/easy-sign-holders/">Sign Holders</a></li>
+                                    <li><a class="list-links" href="https://tieofficemates.com/vinyl-tag-holders/">Tag Holders</a></li>
+                                </ul>
                             </div>
                         </div>
                     </li>
@@ -26,15 +28,15 @@ class Header extends HTMLElement {
                         <div class="hover">
                             <a onclick="show_hide_2()" href="#" class="menuItem hover-menu list-link-2">Industry</a>
                             <div class="list list-2" style="display: none;">
-                                <a class="hover-menu" href="#">Auto Repair</a>
-                                <a class="hover-menu" href="#">Construction</a>
-                                <a class="hover-menu" href="#">Education</a>
-                                <a class="hover-menu" href="#">Facility Manager</a>
-                                <a class="hover-menu" href="#">Government</a>
-                                <a class="hover-menu" href="#">Healthcare</a>
-                                <a class="hover-menu" href="#">Manufacturer</a>
-                                <a class="hover-menu" href="#">Office</a>
-                                <a class="hover-menu" href="#">Retail</a>
+                                <a class="list-links" href="#">Auto Repair</a>
+                                <a class="list-links" href="#">Construction</a>
+                                <a class="list-links" href="#">Education</a>
+                                <a class="list-links" href="#">Facility Manager</a>
+                                <a class="list-links" href="#">Government</a>
+                                <a class="list-links" href="#">Healthcare</a>
+                                <a class="list-links" href="#">Manufacturer</a>
+                                <a class="list-links" href="#">Office</a>
+                                <a class="list-links" href="#">Retail</a>
                             </div>
                         </div>
                     </li>
