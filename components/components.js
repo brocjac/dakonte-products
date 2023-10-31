@@ -4,7 +4,7 @@ class Header extends HTMLElement {
         this.innerHTML = `
         <header>
             <a href="index.html"><img class="logo-img-text" src="images/images/DPG-Corp-Family-Logo-TIE-GMC-EP-transparent.jpg" alt="Dakonte Product Group, TIE office mates, Great Menu Covers, and Easy Partition Logo. " loading="lazy"></a>
-            <div class="nav">
+            <div class="nav" aria-label="main navigation">
                 <ul>
                     <li>
                         <div class="hover">
@@ -55,7 +55,7 @@ class Footer extends HTMLElement {
         this.innerHTML = `
             <footer>
                 <img class="logo-img-footer" src="../images/icons/about-dgp.png" alt="Dakonte Product Group logo. " loading="lazy">
-                <div>
+                <div aria-description="about us and privacy pages">
                     <p><a href="about-dpg.html">About DGP</a> | <a href="privacy.html">Privacy</a></p>
                     <p class="copywrite">© Dakonte Product Group, Inc 2023. All Rights Reserved.</p>
                 </div>
