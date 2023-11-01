@@ -28,15 +28,21 @@ class Header extends HTMLElement {
                         <div class="hover">
                             <a onclick="show_hide_2()" href="#" class="menuItem hover-menu list-link-2">Industry</a>
                             <div class="list list-2" style="display: none;">
-                                <a class="list-links" href="#">Auto Repair</a>
-                                <a class="list-links" href="#">Construction</a>
-                                <a class="list-links" href="#">Education</a>
-                                <a class="list-links" href="#">Facility Manager</a>
-                                <a class="list-links" href="#">Government</a>
-                                <a class="list-links" href="#">Healthcare</a>
-                                <a class="list-links" href="#">Manufacturer</a>
-                                <a class="list-links" href="#">Office</a>
-                                <a class="list-links" href="#">Retail</a>
+                                <ul>
+                                    <li><a class="list-links" href="#">Auto Repair</a></li>
+                                    <li><a class="list-links" href="#">Construction</a></li>
+                                    <li><a class="list-links" href="#">Education</a></li>
+                                    <li><a class="list-links" href="#">Facility Manager</a></li>
+                                    <li><a class="list-links" href="#">Government</a></li>
+                                    <li><a class="list-links" href="#">Healthcare</a></li>
+                                    <li><a class="list-links" href="#">Manufacturer</a></li>
+                                    <li><a class="list-links" href="#">Office</a></li>
+                                    <li><a class="list-links" href="#">Retail</a></li>
+                                </ul>
+                                <div>
+                                    <img src="images/about-us/sneeze-guards-banner-725x250-usa.jpg" alt="">
+                                    <p>this is an image</p>
+                                </div>
                             </div>
                         </div>
                     </li>
