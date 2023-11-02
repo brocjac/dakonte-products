@@ -1,0 +1,25 @@
+p {
+    padding: 5px 0;
+}
+.our-story {
+    text-align: center;
+}
+.the-story {
+    padding: 50px 0;
+    width: 70%;
+    margin: 0 auto;
+}
+.about-flex {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+.about-flex:nth-child(odd) {
+    flex-direction: row-reverse;
+}
+.about-flex img {
+    width: 50%;
+}
+.about-flex div {
+    padding: 0 20px;
+}
