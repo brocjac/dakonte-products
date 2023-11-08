@@ -9,7 +9,6 @@ body {
     max-width: 1080px;
     margin: 20px auto 20px auto;
     overflow-x: hidden;
-    height: 100vh;
 }
 h1 {
     font-size: 42px;
