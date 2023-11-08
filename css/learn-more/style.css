@@ -1,0 +1,26 @@
+main {
+    min-height: 73vh;
+}
+.main-description {
+    text-align: center;
+}
+.main-description h1 {
+    padding-bottom: 20px;
+}
+.flex {
+    width: 100%;
+    display: flex;
+    text-align: center;
+    padding: 20px 0;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.flex a {
+    width: 30%;
+    text-decoration: none;
+    color: black;
+    align-items: center;
+}
+.flex a img {
+    max-height: 100px;
+}

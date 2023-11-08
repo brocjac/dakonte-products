@@ -19,6 +19,9 @@ h2 {
 main {
     padding: 15px;
 }
+.main-container {
+    height: 100vh;
+}
 
 /*-----------------affects and redundant styles----------------------*/
 .hover-affect-1 {

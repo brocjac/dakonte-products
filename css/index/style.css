@@ -84,7 +84,7 @@
 }
 .products {
     padding: 80px 50px 50px 50px;
-    width: 70%;
+    width: 75%;
     position: relative;
     left: 50%;
     transform: translate(-50%);
@@ -125,25 +125,23 @@
     justify-content: flex-start;
     flex-wrap: wrap;
     align-items: flex-start;
-    width: 70%;
+    width: 75%;
     margin: 0 auto;
     text-align: center;
 }
 .learn-options {
     flex-grow: 1;
     padding: 25px;
-    width: 120px;
+    width: 160px;
+    display: block;
+    color: black;
+    text-decoration: none;
 }
 .learn-options img {
     height: 55px;
     position: relative;
     bottom: 0;
     transition-duration: .3s;
-}
-.learn-options {
-    display: block;
-    color: black;
-    text-decoration: none;
 }
 .learn-title {
     font-weight: 700;
