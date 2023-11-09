@@ -122,7 +122,8 @@ label {
     float: none;
 }
 .list ul li a:hover {
-    background-color: #2F528F;
+    color: #ffffff;
+    background-color: #989898;
 }
 .hamburger {
     display: none;
