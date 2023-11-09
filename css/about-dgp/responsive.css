@@ -1,0 +1,15 @@
+@media screen and (max-width: 650px) {
+    .our-story p {
+        text-align: left;
+    }
+    .about-flex {
+        flex-direction: column !important;
+        padding: 50px 0;
+    }
+    .about-flex img {
+        width: 100%;
+    }
+    .about-flex div {
+        padding: 20px 15px;
+    }
+}
