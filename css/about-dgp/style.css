@@ -3,11 +3,13 @@ p {
 }
 .our-story {
     text-align: center;
-}
-.the-story {
     padding: 50px 0;
-    width: 70%;
+    max-width: 830px;
     margin: 0 auto;
+}
+.our-story p {
+    font-size: 18px;
+    padding: 20px 0;
 }
 .about-flex {
     display: flex;
@@ -22,4 +24,50 @@ p {
 }
 .about-flex div {
     padding: 0 20px;
+}
+.about-us-testimonials {
+    font-size: 20px;
+    max-width: 830px;
+    margin: 0 auto;
+    padding: 100px 0;
+    text-align: center;
+}
+.about-us-testimonials ul {
+    text-align: left;
+    width: 395px;
+    margin: 0 auto;
+}
+main h3 {
+    font-size: 32px;
+    padding-bottom: 15px;
+}
+.flex {
+    position: relative;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    padding: 20px 0;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.flex a {
+    flex-grow: 1;
+    width: 22%;
+    height: 200px;
+    text-decoration: none;
+    color: black;
+}
+.flex .div-product-about-img {
+    display: flex;
+    height: calc(100% - 45px);
+    width: 100%;
+    overflow: hidden;
+}
+.flex a img {
+    max-height: 100px;
+    max-width: calc(100% - 45px);
+    margin: auto;
+}
+.contact-us {
+    padding: 50px 0;
 }

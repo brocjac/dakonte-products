@@ -1,5 +1,5 @@
 /*tablet size*/
-@media screen and (max-width: 920px) {
+@media screen and (max-width: 985px) {
     /*--------------Home Page----------------*/
 
     /*introduction*/
@@ -23,6 +23,9 @@
     .learn-options-container {
         width: 85%;
     }
+    .intro-text {
+        bottom: 35px;
+    }
 }
 
 /*Smart phone size*/
@@ -35,14 +38,14 @@
         width: 50%;
     }
     .introduction-container {
-        height: 710px;
+        height: 750px;
     }
     .main-img {
         height: 750px;
     }
     .intro-text {
-        bottom: 55px;
-        width: 85%;
+        bottom: 50px;
+        width: 95%;
     }
     .intro-text h1, .intro-text h2 {
         text-align: center;
@@ -77,18 +80,21 @@
             height: 765px;
         }
         .intro-text {
-            bottom: 30px;
+            bottom: 15px;
         }
     }
-    @media screen and (max-width: 350px) {
+    @media screen and (max-width: 400px) {
         .introduction-container {
             height: 800px;
+        }
+        .intro-text {
+            width: 100%;
         }
         .main-img {
             height: 800px;
         }
         .intro-text {
-            bottom: 30px;
+            bottom: 0;
         }
     }
 
