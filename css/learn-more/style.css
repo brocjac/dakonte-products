@@ -14,13 +14,34 @@ main {
     padding: 20px 0;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
 }
 .flex a {
     width: 30%;
     text-decoration: none;
     color: black;
     align-items: center;
+    height: 100%;
+    padding: 20px;
+}
+@media screen and (max-width: 650px) {
+    .flex a {
+        width: 45%;
+    }
+    @media screen and (max-width: 420px) {
+        .flex a {
+            width: 85%;
+        }
+    }
+}
+.flex .learn-more-image-div {
+    display: flex;
+    height: calc(100% - 45px);
+    width: 100%;
+    overflow: hidden;
 }
 .flex a img {
     max-height: 100px;
+    max-width: calc(100% - 45px);
+    margin: auto;
 }
