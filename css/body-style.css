@@ -33,7 +33,7 @@ main {
 }
 .hover-affect-1:hover {
     bottom: 10px;
-    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
     text-decoration: none;
 }
 
