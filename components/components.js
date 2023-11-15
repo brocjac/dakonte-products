@@ -62,7 +62,7 @@ class Footer extends HTMLElement {
     connectedCallback () {
         this.innerHTML = `
             <footer>
-                <img class="logo-img-footer" src="images/icons/about-dgp.png" alt="Dakonte Product Group logo. " loading="lazy">
+                <a href="index.html"><img class="logo-img-footer" src="images/icons/about-dgp.png" alt="Dakonte Product Group logo. " loading="lazy"></a>
                 <div aria-description="about us and privacy pages">
                     <p><a href="about-dpg.html">About DPG</a> | <a href="privacy.html">Privacy</a></p>
                     <p class="copywrite">© Dakonte Product Group, Inc 2023. All Rights Reserved.</p>

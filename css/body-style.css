@@ -133,6 +133,7 @@ label {
 footer {
     display: flex;
     flex-wrap: wrap;
+    padding: 0 20px;
 }
 footer img {
     padding-right: 15px;
