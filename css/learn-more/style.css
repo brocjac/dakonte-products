@@ -7,7 +7,7 @@ main p {
     font-size: 18px;
 }
 main h2 {
-    font-size: 28px;
+    font-size: 27px;
 }
 .main-description {
     text-align: left;
@@ -159,4 +159,40 @@ main h2 {
             }
         }
     }
+}
+
+/*--------------reseller--------------*/
+
+.reseller {
+    width: 45%;
+    padding: 20px;
+}
+.resellers-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 50px 0;
+}
+.reseller p {
+    padding: 5px 0;
+}
+.resellers-flex > p {
+    font-weight: 700;
+    font-size: 22px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.reseller-story {
+    padding: 20px 0;
+}
+.reseller-story h2, .reseller-story p {
+    padding-bottom: 10px;
+}
+.them-options {
+    text-align: center;
+    padding-bottom: 60px;
+}
+.them-options span {
+    font-weight: 700;
+    font-size: 25px;
 }

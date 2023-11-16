@@ -64,7 +64,7 @@ class Footer extends HTMLElement {
             <footer>
                 <a href="index.html"><img class="logo-img-footer" src="images/icons/about-dgp.png" alt="Dakonte Product Group logo. " loading="lazy"></a>
                 <div aria-description="about us and privacy pages">
-                    <p><a href="about-dpg.html">About DPG</a> | <a href="privacy.html">Privacy</a></p>
+                    <p><a href="about-dpg.html">About DPG</a> | <a href="privacy.html">Privacy</a> | <a href="https://tieofficemates.com/contact-us/">Contact Us</a></p>
                     <p class="copywrite">© Dakonte Product Group, Inc 2023. All Rights Reserved.</p>
                 </div>
                 <p class="trademark">The brands listed above are trademarks of Dakonte Product Group.</p>
