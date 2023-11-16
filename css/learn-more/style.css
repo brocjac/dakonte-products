@@ -29,12 +29,12 @@ main h2 {
     text-decoration: none;
     color: black;
     align-items: center;
-    height: 260px;
+    height: 290px;
     padding: 20px;
 }
 .learn-more-image-div {
     display: flex;
-    height: calc(100% - 80px);
+    height: calc(100% - 120px);
     width: 100%;
     overflow: hidden;
 }
@@ -44,24 +44,22 @@ main h2 {
     margin: auto;
     padding-bottom: 20px;
 }
-.flex a span {
-    font-size: 125px;
-}
-@media screen and (max-width: 940px) {
+@media screen and (max-width: 870px) {
     .flex a {
         width: 45%;
     }
-    @media screen and (max-width: 630px) {
+    @media screen and (max-width: 620px) {
         .flex a {
             width: 85%;
         }
     }
     @media screen and (max-width: 400px) {
         .flex a {
+            width: 95%;
             height: 270px;
         }
         .learn-more-image-div {
-            height: calc(100% - 100px);
+            height: calc(100% - 110px);
         }
     }
 }
@@ -112,6 +110,33 @@ main h2 {
     @media screen and (max-width: 420px) {
         .buyer-other {
             width: 100%;
+        }
+    }
+}
+
+/*-------------Compliance-----------------*/
+.compliance-flex a {
+    width: 22%;
+    height: 200px;
+}
+.compliance-flex .learn-more-image-div {
+    height: calc(100% - 25px);
+}
+.flex a span {
+    font-size: 100px;
+}
+@media screen and (max-width: 870px) {
+    .compliance-flex a {
+        width: 30%;
+    }
+    @media screen and (max-width: 620px) {
+        .compliance-flex a {
+            width: 45%;
+        }
+        @media screen and (max-width: 430px) {
+            .compliance-flex a {
+                width: 95%;
+            }
         }
     }
 }
