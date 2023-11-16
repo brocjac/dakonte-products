@@ -15,10 +15,11 @@ p {
     left: 50%;
     transform: translate(-50%, -50%);
     padding: 20px;
-    width: 68%;
+    width: 66%;
     background-color: rgba(0,0,0,.6);
 }
-.our-story p {
+.our-story h2 {
+    font-size: 27px;
     text-align: left;
 }
 .our-story-container img {
@@ -32,8 +33,9 @@ p {
     padding-bottom: 30px;
 }
 .our-story p {
+    text-align: left;
     font-size: 18px;
-    padding: 20px 0;
+    padding: 10px 0;
 }
 .about-flex {
     display: flex;
