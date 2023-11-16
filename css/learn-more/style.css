@@ -66,20 +66,32 @@ main h2 {
 
 /*---------------corporate-buyers-------------------*/
 
+.main-description-2 {
+    text-align: center;
+    padding-bottom: 35px;
+    font-weight: 700;
+}
+.main-description-2 h2 {
+    padding-bottom: 10px;
+}
 .buyers {
     display: flex;
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
+    max-width: 780px;
 }
 .buyer {
-    width: 50%;
+    width: 45%;
     display: block;
     padding: 32px;
     text-align: center;
 }
-.buyer p, .buyer h2 {
+.buyer p, .buyer h3 {
     padding-bottom: 10px;
+}
+.buyer p {
+    text-align: left;
 }
 .corporate-text {
     font-size: 20px;
@@ -101,14 +113,22 @@ main h2 {
     padding: 20px 0;
 }
 .buyers-margin {
-    margin: 90px 0;
+    margin: 115px auto;
+}
+.buyers-margin-2 {
+    max-width: 100%;
+    margin: 0 auto;
 }
 @media screen and (max-width: 730px) {
     .buyer {
-        width: 100%;
+        width: 70%;
     }
+
     @media screen and (max-width: 420px) {
         .buyer-other {
+            width: 100%;
+        }
+        .buyer {
             width: 100%;
         }
     }
