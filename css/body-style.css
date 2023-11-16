@@ -116,7 +116,7 @@ label {
     width: 50%;
 }
 .list-2 div img {
-    width: 100%;
+    width: 80%;
 }
 .list ul li {
     float: none;
@@ -216,6 +216,9 @@ footer p {
             overflow: hidden;
         }
         .list-2 div {
+            width: 100%;
+        }
+        .list-2 div img {
             width: 100%;
         }
         .list ul {
