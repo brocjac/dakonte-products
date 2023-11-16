@@ -18,6 +18,9 @@ p {
     width: 68%;
     background-color: rgba(0,0,0,.6);
 }
+.our-story p {
+    text-align: left;
+}
 .our-story-container img {
     position: absolute;
     width: 100%;
@@ -104,6 +107,9 @@ main h3 {
     }
     main p {
         text-align: left;
+    }
+    .about-flex h3 {
+        text-align: center;
     }
     @media screen and (max-width: 420px) {
         .flex a {
