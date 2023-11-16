@@ -29,15 +29,15 @@ class Header extends HTMLElement {
                             <a onclick="show_hide_2()" href="#" class="menuItem hover-menu list-link-2">Industry</a>
                             <div class="list list-2" style="display: none;">
                                 <ul>
-                                    <li><a class="list-links" href="#">Auto Repair</a></li>
-                                    <li><a class="list-links" href="#">Construction</a></li>
-                                    <li><a class="list-links" href="#">Education</a></li>
-                                    <li><a class="list-links" href="#">Facility Manager</a></li>
-                                    <li><a class="list-links" href="#">Government</a></li>
-                                    <li><a class="list-links" href="#">Healthcare</a></li>
-                                    <li><a class="list-links" href="#">Manufacturer</a></li>
-                                    <li><a class="list-links" href="#">Office</a></li>
-                                    <li><a class="list-links" href="#">Retail</a></li>
+                                    <li><a class="list-links" href="https://tieofficemates.com/auto-repair-order-holders/">Auto Repair</a></li>
+                                    <li><a class="list-links" href="https://tieofficemates.com/vinyl-document-sleeves/waterproof-press-lock-seal/">Construction</a></li>
+                                    <li><a class="list-links" href="https://tieofficemates.com/shop-ticket-holders/heavy-duty-stitched-job-ticket-holders/">Education</a></li>
+                                    <li><a class="list-links" href="https://tieofficemates.com/easy-sign-holders/">Facility Manager</a></li>
+                                    <li><a class="list-links" href="corporate-buyers.html">Government</a></li>
+                                    <li><a class="list-links" href="https://tieofficemates.com/color-coding-options/">Healthcare</a></li>
+                                    <li><a class="list-links" href="https://tieofficemates.com/vinyl-tag-holders/">Manufacturer</a></li>
+                                    <li><a class="list-links" href="https://tieofficemates.com/two-pocket-holders/">Office</a></li>
+                                    <li><a class="list-links" href="https://tieofficemates.com/vinyl-document-sleeves/standard-heat-seal/">Retail</a></li>
                                 </ul>
                                 <div>
                                     <img src="images/about-us/sneeze-guards-banner-725x250-usa.jpg" alt="">
