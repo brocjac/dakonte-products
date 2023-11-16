@@ -40,8 +40,8 @@ class Header extends HTMLElement {
                                     <li><a class="list-links" href="https://tieofficemates.com/vinyl-document-sleeves/standard-heat-seal/">Retail</a></li>
                                 </ul>
                                 <div>
-                                    <img src="images/about-us/sneeze-guards-banner-725x250-usa.jpg" alt="">
-                                    <p>this is an image</p>
+                                    <img src="images/about-us-page-images/35-years-later-image.jpg" alt="Dakonte Product Group, TIE office mates, Great Menu Covers, and Easy Partition Logo. " loading="lazy">
+                                    <p>Dakonte Product Group Product Line-up</p>
                                 </div>
                             </div>
                         </div>
